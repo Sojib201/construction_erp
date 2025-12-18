@@ -76,9 +76,11 @@ class _LandingPageState extends State<LandingPage> {
                   label: 'Payments',
                 ),
               ],
+              type: BottomNavigationBarType.fixed,
               currentIndex: _selectedIndex,
               selectedItemColor: Colors.blue,
               unselectedItemColor: Colors.grey,
+              showUnselectedLabels: true,
               onTap: _onItemTapped,
             ),
           );
