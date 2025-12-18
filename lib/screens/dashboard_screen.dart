@@ -10,14 +10,10 @@ class DashboardScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final totalProjects = company.projects.length;
-    final totalBudget = company.projects
-        .fold<int>(0, (sum, project) => sum + project.budget.total);
-    final totalSpent = company.projects
-        .fold<int>(0, (sum, project) => sum + project.budget.spent);
-    final totalTasks = company.projects
-        .fold<int>(0, (sum, project) => sum + project.tasks.length);
-    final totalPendingApprovals = company.projects.fold<int>(0, (sum, project) => sum +
-            project.payments.where((p) => p.approvalFlow.status == 'Pending').length);
+    final totalBudget = company.projects.fold<int>(0, (sum, project) => sum + project.budget.total);
+    final totalSpent = company.projects.fold<int>(0, (sum, project) => sum + project.budget.spent);
+    final totalTasks = company.projects.fold<int>(0, (sum, project) => sum + project.tasks.length);
+    final totalPendingApprovals = company.projects.fold<int>(0, (sum, project) => sum + project.payments.where((p) => p.approvalFlow.status == 'Pending').length);
 
     return SingleChildScrollView(
       padding: const EdgeInsets.all(16.0),
