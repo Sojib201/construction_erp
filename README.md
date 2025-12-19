@@ -1,16 +1,4 @@
-# tcl_erp
+sdk: 3.35.1
 
-A new Flutter project.
+<img width="1080" height="2436" alt="Screenshot_20251219_112714" src="https://github.com/user-attachments/assets/a3b4532b-e915-494b-9a32-6004e1b9cd9b" />
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
